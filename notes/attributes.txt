@@ -1,0 +1,8 @@
+For all, higher is better
+
+* Aggression: Likelihood to push enemies
+* Positioning: Quality of position chosen
+* Reactions: Time taken to react to enemies and movement
+* Tactics: Tactical knowledge
+* Patience: Maximum time that can be spent doing one thing before pushing etc.
+* Aim: Chance to hit target in an aim duel
