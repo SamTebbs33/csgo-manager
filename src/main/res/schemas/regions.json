@@ -1,0 +1,53 @@
+{
+  "title": "Regions",
+  "type": "object",
+  "properties": {
+    "regions": {
+      "type": "array",
+      "title": "Regions",
+      "uniqueItems": "true",
+      "items": {
+        "type": "object",
+        "title": "Region",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "minLength": 1,
+            "default": ""
+          },
+          "code": {
+            "type": "string",
+            "title": "Region code",
+            "minLength": 1,
+            "maxLength": 3
+          },
+          "nationality": {
+            "type": "string",
+            "title": "Nationality",
+            "minLength": 1,
+            "default": ""
+          },
+          "countries": {
+            "type": "array",
+            "title": "Countries",
+            "default": "",
+            "items": {
+              "type": "string",
+              "title": "country code"
+            }
+          },
+          "sub-regions": {
+            "type": "array",
+            "title": "Sub-regions",
+            "default": "",
+            "items": {
+              "type": "string",
+              "title": "region code"
+            }
+          }
+        }
+      }
+    }
+  }
+}

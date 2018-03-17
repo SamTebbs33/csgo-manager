@@ -1,0 +1,38 @@
+{
+  "roles": [
+    {
+      "name": "AWPer",
+      "shortName": "AWP",
+      "primaryAttributes": [
+        "Aim",
+        "Reactions"
+      ],
+      "secondaryAttributes": [
+        "Patience",
+        "Positioning"
+      ]
+    },
+    {
+      "name": "Rifler",
+      "shortName": "Rifle",
+      "primaryAttributes": [
+        "Aim"
+      ],
+      "secondaryAttributes": [
+        "Positioning"
+      ]
+    },
+    {
+      "name": "In-game leader",
+      "shortName": "IGL",
+      "primaryAttributes": [
+        "Tactics",
+        "Teamplay"
+      ],
+      "secondaryAttributes": [
+        "Aim",
+        "Positioning"
+      ]
+    }
+  ]
+}

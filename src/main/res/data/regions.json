@@ -1,0 +1,93 @@
+{
+  "regions": [
+    {
+      "name": "Western Europe",
+      "code": "EUW",
+      "nationality": "Western European",
+      "countries": [
+        "GB",
+        "FR",
+        "ES",
+        "PT",
+        "BE",
+        "NL"
+      ],
+      "sub-regions": []
+    },
+    {
+      "name": "Southern Europe",
+      "code": "EUS",
+      "nationality": "Southern European",
+      "countries": [
+        "IT"
+      ],
+      "sub-regions": []
+    },
+    {
+      "name": "Central Europe",
+      "code": "EUC",
+      "nationality": "Central European",
+      "countries": [
+        "DE",
+        "PL",
+        "CH",
+        "CZ",
+        "SK"
+      ],
+      "sub-regions": []
+    },
+    {
+      "name": "Northern Europe",
+      "code": "EUN",
+      "nationality": "Northern European",
+      "countries": [
+        "DK",
+        "SE",
+        "NO",
+        "FI"
+      ],
+      "sub-regions": []
+    },
+    {
+      "name": "Eastern Europe",
+      "code": "EUE",
+      "nationality": "Eastern European",
+      "countries": [
+        "RO",
+        "HR",
+        "BA",
+        "RS",
+        "BG",
+        "UA",
+        "RU",
+        "LV",
+        "LT",
+        "ET"
+      ],
+      "sub-regions": []
+    },
+    {
+      "name": "Europe",
+      "code": "EU",
+      "nationality": "European",
+      "countries": [],
+      "sub-regions": [
+        "EUN",
+        "EUW",
+        "EUE",
+        "EUS"
+      ]
+    },
+    {
+      "name": "North America",
+      "code": "NA",
+      "nationality": "North American",
+      "countries": [
+        "CA",
+        "US",
+        "BR"
+      ],
+      "sub-regions": []
+    }
+  ]
+}

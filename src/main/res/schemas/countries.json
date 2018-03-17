@@ -1,0 +1,79 @@
+{
+  "title": "Countries",
+  "type": "object",
+  "properties": {
+    "countries": {
+      "type": "array",
+      "title": "Countries",
+      "uniqueItems": "true",
+      "items": {
+        "type": "object",
+        "title": "Country",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "minLength": 1,
+            "default": ""
+          },
+          "code": {
+            "type": "string",
+            "title": "Country code",
+            "minLength": 1,
+            "maxLength": 3
+          },
+          "nationality": {
+            "type": "string",
+            "title": "Nationality",
+            "minLength": 1,
+            "default": ""
+          },
+          "languages": {
+            "type": "array",
+            "title": "Languages",
+            "default": "",
+            "items": {
+              "type": "string",
+              "enum": [
+                "EN",
+                "SV",
+                "FR",
+                "FI",
+                "PT",
+                "DA",
+                "NO",
+                "RU",
+                "DE",
+                "ES",
+                "TR",
+                "UK",
+                "SK",
+                "RO",
+                "BS",
+                "BG",
+                "CS",
+                "ET",
+                "LV",
+                "SR",
+                "KK",
+                "IT",
+                "PL",
+                "LT",
+                "HR",
+                "NL"
+              ],
+              "title": "language"
+            }
+          },
+          "rating": {
+            "type": "integer",
+            "title": "Rating",
+            "default": 2,
+            "min": 1,
+            "max": 3
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Player roles",
+  "type": "object",
+  "properties": {
+    "roles": {
+      "type": "array",
+      "title": "Player roles",
+      "uniqueItems": "true",
+      "items": {
+        "title": "Player role",
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "minLength": 1
+          },
+          "shortName": {
+            "type": "string",
+            "title": "Short name",
+            "minLength": 1
+          },
+          "primaryAttributes": {
+            "type": "array",
+            "title": "Primary attributes",
+            "items": {
+              "type": "string",
+              "title": "attribute",
+              "enum": ["Aggression", "Aim", "Patience", "Positioning", "Tactics", "Reactions", "Teamplay"]
+            }
+          },
+          "secondaryAttributes": {
+            "type": "array",
+            "title": "Secondary attributes",
+            "items": {
+              "type": "string",
+              "title": "attribute",
+              "enum": ["Aggression", "Aim", "Patience", "Positioning", "Tactics", "Reactions", "Teamplay"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
