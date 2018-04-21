@@ -1,4 +1,4 @@
-package com.github.samtebbs33.csgo
+package com.github.samtebbs33.csgo.data
 
 object Language extends Enumeration {
 

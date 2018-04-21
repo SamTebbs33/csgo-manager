@@ -1,5 +1,7 @@
-package com.github.samtebbs33.csgo.gen
+package com.github.samtebbs33.csgo.gen.player
 
+import com.github.samtebbs33.csgo.gen.Generator
+import com.github.samtebbs33.csgo.gen.params.NameGeneratorParams
 import org.conbere.markov.MarkovChain
 
 import scala.io.Source
